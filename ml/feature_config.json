@@ -1,0 +1,33 @@
+{
+    "classification_target": "listing_success",
+    "regression_target": "Listing_Gain",
+    "classification_model": "RandomForestClassifier",
+    "regression_model": "LinearRegression",
+    "features": [
+        "Issue_Size",
+        "QIB",
+        "HNI",
+        "RII",
+        "Total",
+        "Offer_Price",
+        "year",
+        "month",
+        "quarter",
+        "day_of_week",
+        "QIB_Ratio_to_Total",
+        "HNI_Ratio_to_Total",
+        "RII_Ratio_to_Total",
+        "Log_Issue_Size",
+        "HNI_vs_RII_Diff",
+        "QIB_vs_RII_Diff"
+    ],
+    "excluded_columns": [
+        "Listing_Gain",
+        "List_Price",
+        "CMPBSE",
+        "CMPNSE",
+        "Current_Gains",
+        "IPO_Name",
+        "Date"
+    ]
+}
